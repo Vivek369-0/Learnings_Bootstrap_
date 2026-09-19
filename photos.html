@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+      .bg-orange{
+             background-color:whitesmoke ;
+      }
+       .nav-item:hover{
+                 background-color: red;
+                 
+       }
+       
+    </style>
+  </head>
+  <body>
+    <!-- navigation sectiom start -->
+       <header>
+        <nav class="navbar navbar-expand-lg bg- bg-orange" data-bs-theme="dark text-dark" >
+  <div class="container mt-5  ">
+    <a class="navbar-brand" href="#"> <img src="image/logo 2.jpeg" alt="Logo" width=" 300" height="150" class="d-inline-block align-text-top " > 
+      </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active bg-danger  border border-dark " aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link   " href="About Us.html">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Gallary
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="photos.html"> photos</a>
+            
+            </li>
+          
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="videos.html">videos </a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="services.html"> Services</a>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.html">Products</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-danger bg-danger" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+       </header>
+        <style>
+        .flex-galary-items{
+           
+            padding:20px;
+            margin:10px;
+            width:350px;
+            height:200px;
+            margin-top:30px;
+            color:blue;
+            font-size:40px;
+            order: 5px solid black;
+            border-radius: 40px; 
+            display: flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .flex-galary{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction:row;
+            justify-content:center;
+            list-style: none;
+           
+       
+        }   
+        .flex-galary-images{
+            border-radius: 40px;  
+            padding:20px; 
+             margin:10px;
+            width:350px;
+            height:200px;
+            margin-top:30px;
+             
+        }   
+
+        .flex-galary-items:hover{
+          transform : scale(1.1);
+          border-color: black;
+          border-width: 4px;
+        }
+    </style>
+       <main>
+        <section class=" ">
+          <ul class="flex-galary">
+        <li class="flex-galary-items"> <img src="image/kitchen 1.jpeg"  class="flex-galary-images"> </li>
+        <li class="flex-galary-items"> <img src="image/bed 2.jpeg" class="flex-galary-images"></li>
+        <li class="flex-galary-items"><img src="image/living (2).jpeg" class="flex-galary-images"> </li>
+        <li class="flex-galary-items"><img src="image/off chair 1.jpeg" class="flex-galary-images"> </li>
+        <li class="flex-galary-items"><img src="image/bed 3.jpg" class="flex-galary-images"> </li>
+        <li class="flex-galary-items"><img src="image/wooden 2.jpeg" class="flex-galary-images"> </li>
+        <li class="flex-galary-items"><img src="image/WhatsApp Image 2026-09-10 at 8.46.34 PM (2).jpeg" class="flex-galary-images"> </li>
+        <li class="flex-galary-items"><img src="image/living.jpeg"class="flex-galary-images"> </li>
+        <li class="flex-galary-items"><img src="image/square 1.jpg" class="flex-galary-images"> </li>
+        <li class="flex-galary-items"><img src="image/vertical  (3).jpg" class="flex-galary-images"> </li>
+        <li class="flex-galary-items"><img src="image/WhatsApp Image 2026-09-10 at 8.46.34 PM (1).jpeg" class="flex-galary-images"> </li>
+        <li class="flex-galary-items"><img src="image/living.jpeg"class="flex-galary-images"> </li>
+    </ul>  
+        </section>
+       </main>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
